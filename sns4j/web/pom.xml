@@ -172,6 +172,11 @@
 
     <!-- Dependencies calculated by AppFuse when running full-source plugin -->
     <dependencies>
+       <dependency>
+           <groupId>commons-collections</groupId>
+           <artifactId>commons-collections</artifactId>
+           <version>${commons.collections.version}</version>
+       </dependency> 
         <dependency>
             <groupId>${jdbc.groupId}</groupId>
             <artifactId>${jdbc.artifactId}</artifactId>
